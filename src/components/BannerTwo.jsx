@@ -5,12 +5,12 @@ import { HiCheck } from "react-icons/hi2";
 const BannerTwo = () => {
   return (
     <section className=" bg-gradient-to-t from-[#fbfdff] to-[#fde6e4]">
-      <div className="max-w-screen-xl  mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 py-20">
+      <div className="max-w-screen-xl  mx-auto grid grid-cols-1 md:grid-cols-2 gap-10  py-20">
         <div>
           <img src={shareImg} alt="shareImg" />
         </div>
         <div>
-          <h2 className="text-4xl font-bold mb-5 text-[#002058]">
+          <h2 className="text-3xl md:text-4xl font-bold mb-5 text-[#002058]">
             Want to share your knowledge? Join us a Mentor
           </h2>
           <p className="text-lg mb-10 text-black/50">
